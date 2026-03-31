@@ -1,0 +1,44 @@
+ ▐▛███▜▌   Claude Code v2.1.88
+▝▜█████▛▘  Sonnet 4.6 · Claude Pro
+  ▘▘ ▝▝    ~/Desktop/ClaudeCode/expense-tracker
+
+❯ what is this project all about                                                
+  ⎿  Please run /login · API Error: 401 
+     {"type":"error","error":{"type":"authentication_error","message":"Invalid 
+     authentication credentials"},"request_id":"req_011CZbWJuqW37tkMacc7R97i"}
+
+❯ why authentication error                                                      
+  ⎿  Please run /login · API Error: 401 
+     {"type":"error","error":{"type":"authentication_error","message":"Invalid 
+     authentication credentials"},"request_id":"req_011CZbWL8Ef8S1rTD4uju18h"}
+
+❯ /login                                                                        
+  ⎿  Login interrupted
+
+❯ /login                                                                        
+  ⎿  Login successful
+
+❯ what is this project all about                                                
+
+  Searched for 1 pattern, read 1 file, listed 2 directories (ctrl+o to expand)
+
+⏺ This is a Flask-based expense tracker web app — looks like a teaching/learning
+   project with a step-by-step implementation guide.
+
+  What it has so far:
+  - A Flask app (app.py) with routes for landing, register, login, and
+  placeholder routes for logout, profile, and full CRUD expense operations
+  - HTML templates: landing.html, login.html, register.html, base.html
+  - A database/ module with db.py (likely SQLite setup)
+  - Dependencies: Flask, Werkzeug (for password hashing), and pytest for testing
+
+  What's planned (not yet implemented):
+  - User authentication (register, login, logout) — Steps 3–4
+  - Expense management: add, edit, delete expenses — Steps 7–9
+
+  It's a step-by-step tutorial project where students build a full
+  authentication + expense tracking app incrementally.
+
+  Regarding the authentication error you mentioned — the /login command you ran
+  was a Claude Code login (/login), not the app's login. It succeeded on the
+  second try ("Login successful"), so you should be good now.
